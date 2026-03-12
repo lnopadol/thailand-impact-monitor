@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thailand Economic Impact Monitor</title>
+<style>
+:root {
+  --bg: #0a0a0f;
+  --surface: #12121a;
+  --border: #1e1e2e;
+  --text: #e0e0e8;
+  --muted: #888898;
+  --accent: #60a5fa;
+  --red: #ef4444;
+  --green: #22c55e;
+  --yellow: #f59e0b;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: var(--bg); color: var(--text); font-family: 'SF Mono', 'Cascadia Code', 'JetBrains Mono', monospace; font-size: 13px; line-height: 1.6; padding: 20px; max-width: 1200px; margin: 0 auto; }
+h1 { font-size: 18px; font-weight: 600; margin-bottom: 4px; color: var(--accent); }
+.subtitle { color: var(--muted); font-size: 11px; margin-bottom: 20px; }
+.status-bar { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 24px; padding: 16px; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; }
+.status-item { display: flex; flex-direction: column; gap: 2px; }
+.status-label { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }
+.status-value { font-size: 14px; font-weight: 600; }
+.status-value.danger { color: var(--red); }
+.status-value.warning { color: var(--yellow); }
+.status-value.ok { color: var(--green); }
+table { width: 100%; border-collapse: collapse; background: var(--surface); border-radius: 8px; overflow: hidden; }
+thead { background: #1a1a28; }
+th { text-align: left; padding: 10px 12px; font-size: 10px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--muted); font-weight: 500; border-bottom: 1px solid var(--border); white-space: nowrap; }
+td { padding: 8px 12px; border-bottom: 1px solid var(--border); font-size: 12px; vertical-align: top; }
+tr:hover { background: rgba(255,255,255,0.02); }
+.headline { color: var(--muted); font-size: 11px; max-width: 500px; }
+.footer { margin-top: 20px; color: var(--muted); font-size: 10px; text-align: center; }
+.footer a { color: var(--muted); }
+@media (max-width: 768px) {
+  body { padding: 12px; font-size: 12px; }
+  .status-bar { gap: 12px; }
+  td, th { padding: 6px 8px; }
+  .headline { max-width: 200px; }
+}
+</style>
+</head>
+<body>
+<h1>Thailand Economic Impact Monitor</h1>
+<p class="subtitle">Last updated: <span id="last-updated">2026-03-12</span> | 10 daily observations | Iran-Gulf War impact tracking</p>
+
+<div class="status-bar">
+  <div class="status-item">
+    <span class="status-label">USD/THB</span>
+    <span class="status-value warning" id="cur-thb">33.5</span>
+  </div>
+  <div class="status-item">
+    <span class="status-label">SET Index</span>
+    <span class="status-value" id="cur-set">1,264.68</span>
+  </div>
+  <div class="status-item">
+    <span class="status-label">Diesel (THB/L)</span>
+    <span class="status-value" id="cur-diesel">29.94</span>
+  </div>
+</div>
+
+<table>
+<thead>
+<tr>
+  <th>Date</th>
+  <th>USD/THB</th>
+  <th>SET Index</th>
+  <th>Diesel (THB/L)</th>
+  <th>Summary</th>
+</tr>
+</thead>
+<tbody id="log-body">
+<tr>
+  <td>2026-03-12</td>
+  <td>33.50</td>
+  <td>1,264.68</td>
+  <td>29.94</td>
+  <td class="headline">Thailand Economic Impact Tracker — Daily brief (as of 2026-03-12 08:03 ICT)</td>
+</tr>
+<tr>
+  <td>2026-03-11</td>
+  <td>29.94</td>
+  <td>1,405.76</td>
+  <td>29.94</td>
+  <td class="headline">Thailand Economic Impact Tracker — 11 Mar 2026 (Asia/Bangkok)</td>
+</tr>
+<tr>
+  <td>2026-03-10</td>
+  <td>37.85</td>
+  <td>1,382.97</td>
+  <td>40.31</td>
+  <td class="headline">Thailand Economic Impact Tracker — Daily brief</td>
+</tr>
+<tr>
+  <td>2026-03-09</td>
+  <td>29.94</td>
+  <td>1,410.37</td>
+  <td>29.94</td>
+  <td class="headline">Thailand Economic Impact Tracker — 09 Mar 2026 (ICT)</td>
+</tr>
+<tr>
+  <td>2026-03-08</td>
+  <td>34.00</td>
+  <td>1,410.37</td>
+  <td>29.94</td>
+  <td class="headline">Thailand Economic Impact Tracker — 8 Mar 2026 (ICT)</td>
+</tr>
+<tr>
+  <td>2026-03-07</td>
+  <td>34.00</td>
+  <td>1,410.37</td>
+  <td>29.94</td>
+  <td class="headline">Title: Thailand Impact: Energy buffer strengthened (oil cover up to 95 days)</td>
+</tr>
+<tr>
+  <td>2026-03-06</td>
+  <td>37.85</td>
+  <td>1,417.29</td>
+  <td>40.31</td>
+  <td class="headline">Thailand Economic Impact Tracker — Run 2026-03-06 (08:00 ICT)</td>
+</tr>
+<tr>
+  <td>2026-03-05</td>
+  <td>31.48</td>
+  <td>1,379.68</td>
+  <td>-</td>
+  <td class="headline">Thailand Impact Tracker — 05 Mar 2026 (08:03 ICT)</td>
+</tr>
+<tr>
+  <td>2026-03-04</td>
+  <td>31.41</td>
+  <td>1,466.51</td>
+  <td>-</td>
+  <td class="headline">Thailand Impact Tracker — Run 2026-03-04 08:03 (Asia/Bangkok)</td>
+</tr>
+<tr>
+  <td>2026-03-03</td>
+  <td>31.41</td>
+  <td>1,500.07</td>
+  <td>-</td>
+  <td class="headline">Thailand Impact Tracker — Run 2026-03-03 08:02 (Asia/Bangkok)</td>
+</tr>
+</tbody>
+</table>
+
+<div class="footer">
+  <p>Updated daily at 8:00 AM ICT | <a href="https://www.perplexity.ai/computer" target="_blank" rel="noopener noreferrer">Created with Perplexity Computer</a></p>
+</div>
+</body>
+</html>
