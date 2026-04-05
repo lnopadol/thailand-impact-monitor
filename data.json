@@ -1,72 +1,312 @@
 [
   {
-    "date": "2026-03-03",
-    "usd_thb": 31.414,
-    "set_index": 1500.07,
-    "diesel_thb_per_l": null,
-    "headline": "Thailand Impact Tracker \u2014 Run 2026-03-03 08:02 (Asia/Bangkok)"
+    "timestamp": "2026-03-05T13:01:00+07:00",
+    "display_time": "2026-03-05 13:01 ICT",
+    "hormuz_status": "Unknown",
+    "brent": 84.33,
+    "wti": 77.522,
+    "gold": 5150.8,
+    "btc": 91151.49,
+    "headline": "Oil jumps +3–4% as Hormuz traffic stays near-stalled."
   },
   {
-    "date": "2026-03-04",
-    "usd_thb": 31.414,
-    "set_index": 1466.51,
-    "diesel_thb_per_l": null,
-    "headline": "Thailand Impact Tracker \u2014 Run 2026-03-04 08:03 (Asia/Bangkok)"
+    "timestamp": "2026-03-05T19:01:00+07:00",
+    "display_time": "2026-03-05 19:01 ICT",
+    "hormuz_status": "Effectively Closed",
+    "brent": 82.42,
+    "wti": 76.121,
+    "gold": 5161.9,
+    "btc": 91151.49,
+    "headline": "Shipping attacks continue as Hormuz effectively shut."
   },
   {
-    "date": "2026-03-05",
-    "usd_thb": 31.48,
-    "set_index": 1379.68,
-    "diesel_thb_per_l": null,
-    "headline": "Thailand Impact Tracker \u2014 05 Mar 2026 (08:03 ICT)"
+    "timestamp": "2026-03-06T07:05:00+07:00",
+    "display_time": "2026-03-06 07:05 ICT",
+    "hormuz_status": "Effectively Closed",
+    "brent": 85.41,
+    "wti": 78.87,
+    "gold": 5060.6,
+    "btc": 91151.0,
+    "headline": "Hormuz remains effectively blocked; oil up ~4–6% on the day; Qatar LNG outage persists."
   },
   {
-    "date": "2026-03-06",
-    "usd_thb": 37.854,
-    "set_index": 1417.29,
-    "diesel_thb_per_l": 40.31,
-    "headline": "Thailand Economic Impact Tracker \u2014 Run 2026-03-06 (08:00 ICT)"
+    "timestamp": "2026-03-06T13:03:00+07:00",
+    "display_time": "2026-03-06 13:03 ICT",
+    "hormuz_status": "Effectively Closed",
+    "brent": 84.96,
+    "wti": 80.495,
+    "gold": 5110.8,
+    "btc": 91151.49,
+    "headline": "Hormuz still near-standstill (de facto disruption); oil slightly lower vs last check; Gulf states signal collective defense."
   },
   {
-    "date": "2026-03-07",
-    "usd_thb": 34.0,
-    "set_index": 1410.37,
-    "diesel_thb_per_l": 29.94,
-    "headline": "Title: Thailand Impact: Energy buffer strengthened (oil cover up to 95 days)"
+    "timestamp": "2026-03-06T19:02:00+07:00",
+    "display_time": "2026-03-06 19:02 ICT",
+    "hormuz_status": "Effectively Closed",
+    "brent": 87.3,
+    "wti": 87.3,
+    "gold": null,
+    "btc": 91151.0,
+    "headline": "Hormuz remains de-facto shut (traffic near-halt) as war enters week 2; LNG disruption persists; oil jumps back up."
   },
   {
-    "date": "2026-03-08",
-    "usd_thb": 34.0,
-    "set_index": 1410.37,
-    "diesel_thb_per_l": 29.94,
-    "headline": "Thailand Economic Impact Tracker \u2014 8 Mar 2026 (ICT)"
+    "timestamp": "2026-03-07T07:02:00+07:00",
+    "display_time": "2026-03-07 07:02 ICT",
+    "hormuz_status": "Unknown",
+    "brent": null,
+    "wti": null,
+    "gold": null,
+    "btc": 71680.3,
+    "headline": "Hormuz disruption persists."
   },
   {
-    "date": "2026-03-09",
-    "usd_thb": 29.94,
-    "set_index": 1410.37,
-    "diesel_thb_per_l": 29.94,
-    "headline": "Thailand Economic Impact Tracker \u2014 09 Mar 2026 (ICT)"
+    "timestamp": "2026-03-07T13:02:00+07:00",
+    "display_time": "2026-03-07 13:02 ICT",
+    "hormuz_status": "Effectively Closed",
+    "brent": 92.87,
+    "wti": 90.9,
+    "gold": 5158.89,
+    "btc": 68005.0,
+    "headline": "Hormuz effectively shut; Brent ~$93; gold ~$5,159; BTC ~$68.0k."
   },
   {
-    "date": "2026-03-10",
-    "usd_thb": 37.854,
-    "set_index": 1382.97,
-    "diesel_thb_per_l": 40.31,
-    "headline": "Thailand Economic Impact Tracker \u2014 Daily brief"
+    "timestamp": "2026-03-07T19:04:00+07:00",
+    "display_time": "2026-03-07 19:04 ICT",
+    "hormuz_status": "Effectively Closed",
+    "brent": 92.69,
+    "wti": 90.9,
+    "gold": null,
+    "btc": 68078.0,
+    "headline": "Hormuz effectively shut (tanker traffic near-zero); Brent holds ~$93 after >8% jump; LNG shock persists"
   },
   {
-    "date": "2026-03-11",
-    "usd_thb": 29.94,
-    "set_index": 1405.76,
-    "diesel_thb_per_l": 29.94,
-    "headline": "Thailand Economic Impact Tracker \u2014 11 Mar 2026 (Asia/Bangkok)"
+    "timestamp": "2026-03-08T07:02:00+07:00",
+    "display_time": "2026-03-08 07:02 ICT",
+    "hormuz_status": "Unknown",
+    "brent": 84.54,
+    "wti": 80.01,
+    "gold": 5171.5,
+    "btc": 67362.0,
+    "headline": "Hormuz disruption persists (tanker traffic near-zero); Brent/WTI eased on latest close."
   },
   {
-    "date": "2026-03-12",
-    "usd_thb": 33.5,
-    "set_index": 1264.68,
-    "diesel_thb_per_l": 29.94,
-    "headline": "Thailand Economic Impact Tracker \u2014 Daily brief (as of 2026-03-12 08:03 ICT)"
+    "timestamp": "2026-03-08T13:03:00+07:00",
+    "display_time": "2026-03-08 13:03 ICT",
+    "hormuz_status": "Effectively Closed",
+    "brent": 84.54,
+    "wti": 80.01,
+    "gold": 5171.5,
+    "btc": 67220.0,
+    "headline": "Hormuz remains effectively closed (tanker traffic standstill); Brent ~$84.5; gold ~$5,171; BTC ~$67.2k."
+  },
+  {
+    "timestamp": "2026-03-09T07:11:00+07:00",
+    "display_time": "2026-03-09 07:11 ICT",
+    "hormuz_status": "Effectively Closed",
+    "brent": 106.922,
+    "wti": 108.85,
+    "gold": 5143.77,
+    "btc": 66361.0,
+    "headline": "Assessment: legally open but effectively closed / near-standstill."
+  },
+  {
+    "timestamp": "2026-03-09T13:04:00+07:00",
+    "display_time": "2026-03-09 13:04 ICT",
+    "hormuz_status": "Effectively Closed",
+    "brent": 107.07,
+    "wti": 106.17,
+    "gold": 5044.57,
+    "btc": 67742.0,
+    "headline": "Hormuz remains legally open but effectively near-closed (very low transits) while oil stays >$100."
+  },
+  {
+    "timestamp": "2026-03-09T19:04:00+07:00",
+    "display_time": "2026-03-09 19:04 ICT",
+    "hormuz_status": "Effectively Closed",
+    "brent": 103.89,
+    "wti": 102.11,
+    "gold": null,
+    "btc": 67862.0,
+    "headline": "Hormuz effectively closed; oil elevated."
+  },
+  {
+    "timestamp": "2026-03-10T07:01:00+07:00",
+    "display_time": "2026-03-10 07:01 ICT",
+    "hormuz_status": "Effectively Closed",
+    "brent": 103.74,
+    "wti": null,
+    "gold": 5126.7,
+    "btc": 68975.62,
+    "headline": "Hormuz remains effectively near-closed: commercial avoidance continues; new ship strike reporting."
+  },
+  {
+    "timestamp": "2026-03-10T13:02:00+07:00",
+    "display_time": "2026-03-10 13:02 ICT",
+    "hormuz_status": "Severely Disrupted",
+    "brent": 102.91,
+    "wti": 87.876,
+    "gold": 5162.5,
+    "btc": 68975.62,
+    "headline": "Hormuz still severely disrupted but selectively passable; Brent still >$100."
+  },
+  {
+    "timestamp": "2026-03-10T19:04:00+07:00",
+    "display_time": "2026-03-10 19:04 ICT",
+    "hormuz_status": "Effectively Closed",
+    "brent": 92.469,
+    "wti": 87.876,
+    "gold": null,
+    "btc": 69947.82,
+    "headline": "Assessment: Effectively disrupted / near-standstill with selective passage."
+  },
+  {
+    "timestamp": "2026-03-11T13:00:00+07:00",
+    "display_time": "2026-03-11 13:00 ICT",
+    "hormuz_status": "Effectively Closed",
+    "brent": 86.91,
+    "wti": 83.22,
+    "gold": 5204.4,
+    "btc": 70063.86,
+    "headline": "Assessment: De-facto closed for most compliant operators; limited high-risk transits."
+  },
+  {
+    "timestamp": "2026-03-11T19:02:00+07:00",
+    "display_time": "2026-03-11 19:02 ICT",
+    "hormuz_status": "Effectively Closed",
+    "brent": 91.72,
+    "wti": null,
+    "gold": 5190.45,
+    "btc": null,
+    "headline": "Hormuz remains effectively near-standstill; LNG shock persists (Qatar force majeure)."
+  },
+  {
+    "timestamp": "2026-03-12T07:01:00+07:00",
+    "display_time": "2026-03-12 07:01 ICT",
+    "hormuz_status": "Open",
+    "brent": 91.98,
+    "wti": 92.84,
+    "gold": 5190.8,
+    "btc": 71038.44,
+    "headline": "Fresh ship strikes reported; Hormuz technically open but operating like a wartime exclusion zone with near-zero commercial traffic."
+  },
+  {
+    "timestamp": "2026-03-12T13:04:00+07:00",
+    "display_time": "2026-03-12 13:04 ICT",
+    "hormuz_status": "Severely Disrupted",
+    "brent": 98.53,
+    "wti": 93.209,
+    "gold": 5154.89,
+    "btc": 71038.44,
+    "headline": "Near-standstill shipping in Hormuz; multiple vessel attacks; oil spikes toward $100 Brent."
+  },
+  {
+    "timestamp": "2026-03-12T19:02:00+07:00",
+    "display_time": "2026-03-12 19:02 ICT",
+    "hormuz_status": "Severely Disrupted",
+    "brent": 98.043,
+    "wti": 92.703,
+    "gold": 5176.52,
+    "btc": 69455.9,
+    "headline": "Tanker traffic still near-standstill; IEA agrees record 400M bbl oil reserve release; Brent ~$98, WTI ~$92.7."
+  },
+  {
+    "timestamp": "2026-03-13T07:04:00+07:00",
+    "display_time": "2026-03-13 07:04 ICT",
+    "hormuz_status": "Severely Disrupted",
+    "brent": 101.79,
+    "wti": 96.71,
+    "gold": 5175.26,
+    "btc": 91151.49,
+    "headline": "Hormuz still severely disrupted; Brent back above $100 while Iran UN envoy says Tehran won't close the strait."
+  },
+  {
+    "timestamp": "2026-03-13T14:00:00+07:00",
+    "display_time": "2026-03-13 14:00 ICT",
+    "hormuz_status": "Severely Disrupted",
+    "brent": 100.34,
+    "wti": 95.3,
+    "gold": 5127.3,
+    "btc": 71627.35,
+    "headline": "Hormuz still severely disrupted; Iran supreme leader says strait should remain shut while U.S. weighs coalition escorts."
+  },
+  {
+    "timestamp": "2026-03-14T15:04:00+07:00",
+    "display_time": "2026-03-14 15:04 ICT",
+    "hormuz_status": "Severely Disrupted",
+    "brent": 103.14,
+    "wti": 98.71,
+    "gold": 5017.7,
+    "btc": 70723.29295607845,
+    "headline": "Hormuz still severely disrupted (repeated ship attacks); Brent ~$103, gold ~$5,018 while LNG shock persists."
+  },
+  {
+    "timestamp": "2026-03-15T15:03:00+07:00",
+    "display_time": "2026-03-15 15:03 ICT",
+    "hormuz_status": "Severely Disrupted",
+    "brent": 103.14,
+    "wti": 98.71,
+    "gold": 5017.7,
+    "btc": 71500.44570971771,
+    "headline": "Hormuz transit still heavily suppressed; ceasefire efforts rejected; U.S. urges coalition warships for escorts."
+  },
+  {
+    "timestamp": "2026-03-15T19:03:00+07:00",
+    "display_time": "2026-03-15 19:03 ICT",
+    "hormuz_status": "Severely Disrupted",
+    "brent": 103.14,
+    "wti": 98.71,
+    "gold": 5017.7,
+    "btc": 71843.15989473686,
+    "headline": "Hormuz remains severely disrupted; U.S. Maritime Advisory warns of continued Iranian attacks as coalition escort planning continues."
+  },
+  {
+    "timestamp": "2026-03-29T13:00:00+07:00",
+    "display_time": "2026-03-29 13:00 ICT",
+    "hormuz_status": "Severely Disrupted",
+    "brent": null,
+    "wti": null,
+    "gold": null,
+    "btc": null,
+    "headline": "JMIC: SoH threat level CRITICAL; observed traffic ~11 vessels/24h vs ~138/day historical; 21 incidents since 1 Mar."
+  },
+  {
+    "timestamp": "2026-04-02T13:00:00+07:00",
+    "display_time": "2026-04-02 13:00 ICT",
+    "hormuz_status": "Severely Disrupted",
+    "brent": null,
+    "wti": null,
+    "gold": null,
+    "btc": null,
+    "headline": "Reuters: Strait described as nearly inaccessible; Iran-Oman protocol discussed to license/permit vessel transits; Iran parliament weighs banning “hostile” vessels and charging tolls."
+  },
+  {
+    "timestamp": "2026-04-03T13:00:00+07:00",
+    "display_time": "2026-04-03 13:00 ICT",
+    "hormuz_status": "Severely Disrupted",
+    "brent": null,
+    "wti": null,
+    "gold": null,
+    "btc": null,
+    "headline": "CNBC: UN Security Council shipping-protection draft (\"all necessary means\") reportedly stalled; Iran continues curtailing tanker movements through Hormuz."
+  },
+  {
+    "timestamp": "2026-04-05T00:08:26+07:00",
+    "display_time": "2026-04-05 00:08 ICT",
+    "hormuz_status": "Severely Disrupted",
+    "brent": 109.03,
+    "wti": 111.54,
+    "gold": 4676.43,
+    "btc": 67316.77,
+    "headline": "JMIC Update 025 (29 Mar): threat level remains CRITICAL; observed Strait of Hormuz traffic remains far below normal (~138/day), with 11 vessels observed in the last 24 hours (AIS-derived); no vessel attacks reported in past 72 hours."
+  },
+  {
+    "timestamp": "2026-04-05T08:02:00+07:00",
+    "display_time": "2026-04-05 08:02 ICT",
+    "hormuz_status": "Thailand Impact Update",
+    "brent": null,
+    "wti": null,
+    "gold": null,
+    "btc": null,
+    "headline": "Thailand: Fuel retailers raised pump prices Apr 3 (diesel +3.50 baht/litre; petrol/gasohol +0.70); exports +9.9% y/y in Feb but with widening trade deficit as imports +31.8%; Krungsri estimates Middle East escalation could cut Thailand GDP by 0.2–0.9pp via oil and logistics shocks."
   }
 ]
